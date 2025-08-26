@@ -1,6 +1,6 @@
 from os import name
 
-'''
+
 listA = input("Enter a list of numbers integers separated by spaces: ").split()     # Get input from user and split into a list
 listA = [int(num) for num in listA]                                                 # Convert input strings to integers
 
@@ -27,7 +27,7 @@ favColour = input("Enter your favorite color: ")        # Get user's favorite co
 user = {'Name': name, 'Age': age, 'FavColour': favColour}  # Create a dictionary with user's details
 print(user)                                                 # Outputs the user's details as a dictionary
 print(f"Name: {name}, Age: {age}, FavColour: {favColour}")  # Outputs the user's details in a formatted string
-'''
+
 # Next
 
 setA = set(input("Enter a set of numbers separated by comma: ").split(","))  # Get input from user and split into a set
@@ -38,7 +38,6 @@ print(setB)
 
 print(setA & setB)  # Outputs the intersection of setA and setB
 
-'''
+
 setA = {num.strip() for num in setA}  # Remove whitespace and create a set
 setA = {int(num) for num in setA}  # Convert input strings to integers and create a set
-'''

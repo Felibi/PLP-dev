@@ -56,4 +56,6 @@ for number in range(1, 10):               # Iterate through numbers from 1 to 9
 # Nested Loops
 for i in range(1, 4):                       # Outer loop
     for j in range(1, 4):                   # Inner loop
-        print(f'Outer loop {i}, Inner loop {j}')
+        print(f'Outer loop {i}, Inner loop {j}')               # Print the current values of i and j
+                                            # The inner loop completes all its iterations for each iteration of the outer loop.
+

@@ -29,4 +29,4 @@ print(1005 in staffID)                   # outputs False
 
 # Iterating over keys
 for v in staffID:
-    print(staffID[v])              # outputs each key-value pair
+    print(staffID[v])              # outputs the value for each key
