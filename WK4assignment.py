@@ -27,4 +27,4 @@ try:
     with open(file_name, "r") as file:
         data = file.read()
 except FileNotFoundError:
-    print("File not found. Please check the filename.")
+    print("File not accessible. Please check the filename.")

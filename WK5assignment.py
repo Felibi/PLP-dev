@@ -79,7 +79,8 @@ myAnimal = bird()
 print(myAnimal.speak())
 print(myAnimal.muve())
 '''
-for animal in [dog("Buddy"), cat("Whiskers"), bird("Tweety")]:
+for animal in [dog(), cat(), bird()]:
     print(animal.speak())
     print(animal.muve())
 '''
+

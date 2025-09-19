@@ -1,4 +1,4 @@
-'''
+"""
 What is NumPy?
 
 NumPy stands for Numerical Python.
@@ -7,11 +7,11 @@ It’s used for:
 Working with large arrays and matrices
 
 Performing math operations on arrays
+"""
+# 🔧 Installing NumPy
+# pip install numpy
 
-🔧 Installing NumPy
-pip install numpy
-
-✨ Basic NumPy Example
+# ✨ Basic NumPy Example
 import numpy as np
 
 # Create a simple array
@@ -24,14 +24,12 @@ print("Mean:", np.mean(my_array))        # Average of the array
 print("Square Roots:", np.sqrt(my_array))
 
 
+# 🎲 Practice Task (NumPy)
 
-🎲 Practice Task (NumPy)
+# Create an array with numbers 10 to 50.
 
-Create an array with numbers 10 to 50.
+# Find the maximum and minimum values.
 
-Find the maximum and minimum values.
-
-Multiply all elements by 3.
+# Multiply all elements by 3.
 
 
-'''

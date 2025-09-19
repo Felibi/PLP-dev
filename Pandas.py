@@ -1,19 +1,19 @@
-'''
-What is Pandas?
+# Pandas Cheat Sheet
+# What is Pandas?
 
-Pandas is used for data manipulation and analysis.
-It allows you to:
+# Pandas is used for data manipulation and analysis.
+# It allows you to:
 
-Work with tables (just like Excel or Google Sheets!)
+# Work with tables (just like Excel or Google Sheets!)
 
-Clean and filter data easily
+# Clean and filter data easily
 
-Read from CSV, Excel, JSON, etc.
+# Read from CSV, Excel, JSON, etc.
 
-🔧 Installing Pandas
-pip install pandas
+# 🔧 Installing Pandas
+# pip install pandas
 
-✨ Basic Pandas Example
+# ✨ Basic Pandas Example
 import pandas as pd
 
 # Create a DataFrame (table-like structure)
@@ -34,20 +34,18 @@ print("Names:", df['Name'])
 print("Scores above 90:")
 print(df[df['Score'] > 90])
 
-📁 Reading CSV Files with Pandas
+# 📁 Reading CSV Files with Pandas
 df = pd.read_csv('students.csv')
 print(df.head())  # Show first 5 rows
 
 
 
 
-📊 Practice Task (Pandas)
+# 📊 Practice Task (Pandas)
 
-Create a DataFrame with 3 students: name, age, and grade.
+# Create a DataFrame with 3 students: name, age, and grade.
 
-Add a column called “Passed” where grade > 50 = True.
+# Add a column called “Passed” where grade > 50 = True.
 
-Filter and display only students who passed.
+# Filter and display only students who passed.
 
-
-'''

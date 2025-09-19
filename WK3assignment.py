@@ -1,9 +1,9 @@
 '''
 def calculate_discount(price, discount_percent):        # Calculate the discount based on price and discount percentage
-    if price > 100:                                     # Check if the price is greater than 100
+    if price > 0:                                     # Check if the price is greater than 0
         return price - (price * discount_percent)
     return price
-print(calculate_discount(150, 0.2))
+print(int(input(calculate_discount(price, discount_percent))))
 '''
 
 # Create a function named calculate_discount(price, discount_percent) that calculates the final price after applying a discount. The function should take the original price (price) and the discount percentage (discount_percent) as parameters.

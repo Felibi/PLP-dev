@@ -19,3 +19,5 @@ def divisible_by_ten(num):
         return False
 print('enter a number:')
 print(divisible_by_ten(int(input())))
+
+# call the function divisible_by_ten
